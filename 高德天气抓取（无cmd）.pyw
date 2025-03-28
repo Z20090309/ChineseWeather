@@ -52,9 +52,6 @@ class important:
 def on_button_click():
     # 获取输入框中的内容
     name = entry.get()
-    if name == '张泽坤':
-        output_label.config(text='恭喜你得到了作者的名字', font=('宋体', 20))
-        return None
     if name == '王德胜':
         output_label.config(text='恭喜你得到了作者的御用男模的名字', font=('宋体', 20))
         return None
